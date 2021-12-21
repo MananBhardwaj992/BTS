@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.headd {
+  overflow: auto;
+}
+
+header {
+  background-image: url("https://6.viki.io/image/fbfebd4bba4d4a349eea7ede84401bf5/dummy.jpeg?s=900x600&e=t");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 25px;
+}
+header > h1 {
+  text-shadow: 10px 10px 5px rgb(38, 38, 38);
+}
+.bts-text {
+  font-weight: bolder;
+  text-shadow: 5px 5px 8px rgb(38, 38, 38);
+}
+.bang {
+  font-size: 15px;
+  text-shadow: 10px 10px 5px rgb(38, 38, 38);
+}
+.bts-group {
+  border: 5px solid rgb(255, 95, 95);
+  border-radius: 180px;
+  height: auto;
+  width: 30vw;
+}
+.intro {
+  text-shadow: 5px 5px 8px rgb(114, 114, 114);
+  /* color: rgba(0, 0, 0, 0.912); */
+}
+.main {
+  padding: 50px;
+}
+.main > p {
+  padding: 50px;
+}
+
+footer {
+  background-color: bisque;
+  padding: 50px;
+}
+footer > p {
+  float: left;
+}
+footer > .rights {
+  text-align: center;
+  float: right;
+}
+.career > h2 {
+  font-weight: bolder;
+  /* padding: 50px; */
+}
+h4 {
+  padding: 25px;
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 460px) {
+  footer {
+    display: flex;
+  }
+}
