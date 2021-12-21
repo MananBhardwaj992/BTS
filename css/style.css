@@ -31,7 +31,7 @@ header > h1 {
 }
 .bang {
   font-size: 15px;
-  text-shadow: 10px 10px 5px rgb(38, 38, 38);
+  text-shadow: 10px 10px 15px rgb(38, 38, 38);
 }
 .bts-group {
   border: 5px solid rgb(255, 95, 95);
@@ -40,7 +40,7 @@ header > h1 {
   width: 30vw;
 }
 .intro {
-  text-shadow: 5px 5px 8px rgb(114, 114, 114);
+  text-shadow: 5px 5px 18px rgb(114, 114, 114);
   /* color: rgba(0, 0, 0, 0.912); */
 }
 .main {
@@ -48,11 +48,12 @@ header > h1 {
 }
 .main > p {
   padding: 15px;
+  font-size: 0.75rem;
 }
 
 footer {
   background-color: bisque;
-  padding: 50px;
+  padding: 5rem;
 }
 footer > p {
   float: left;
@@ -64,6 +65,9 @@ footer > .rights {
 .career > h2 {
   font-weight: bolder;
   /* padding: 50px; */
+}
+.career > p {
+  font-size: 0.75rem;
 }
 h4 {
   padding: 25px;
